@@ -1,0 +1,21 @@
+{
+  "name": "riichi-score",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cwebley/riichi-score.git"
+  },
+  "author": "Cameron Webley cameron.webley@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^3.5.1",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.4"
+  }
+}
