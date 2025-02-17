@@ -23,9 +23,6 @@ const handData = {
   }),
 };
 
-console.log("test.js starting");
 const result = calculate(handData);
-console.log("RESULT: ", result);
-console.log("fu list: ", result.handInterpretations[0].fuList);
-console.log("yaku ", result.handInterpretations[0].yaku);
-console.log("seat payments", result.handInterpretations[0].seatPayments);
+
+console.log("FULL :", JSON.stringify(result, null, 4));
