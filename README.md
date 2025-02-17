@@ -30,10 +30,9 @@ const handData = {
     },
   ],
   winningTile: {
-    // For ron (discard win):
     tile: "7z",
-    from: "north",
-    // For tsumo (self-draw), you can set isTsumo: true and omit `from`.
+    from: "north", // ron
+    // for tsumo, you can set isTsumo: true and omit `from`.
   },
   gameState: createGameState({
     roundWind: "east",
